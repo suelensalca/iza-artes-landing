@@ -16,6 +16,7 @@ const eslintConfig = [
       'prettier/prettier': 'warn',
       semi: ['error'],
       'prefer-arrow-callback': ['error'],
+      'no-unused-var': ['warn'],
     },
   }),
 ];
