@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import theme from '@/styles/theme';
-import Header from './components/header';
+import Navbar from './components/navbar';
 
 export const metadata: Metadata = {
   title: 'Iza Artes',
@@ -23,7 +23,7 @@ export default function RootLayout({
         <AppRouterCacheProvider>
           <ThemeProvider theme={theme}>
             <CssBaseline />
-            <Header />
+            <Navbar />
             {children}
           </ThemeProvider>
         </AppRouterCacheProvider>
