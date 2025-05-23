@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Iza Artes',
   description: 'Artesanato e produtos feito a mao.',
   icons: {
-    icon: '/assets/favicon.png',
+    icon: '/assets/favicon.ico',
   },
 };
 
