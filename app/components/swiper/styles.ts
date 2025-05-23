@@ -5,8 +5,19 @@ import { SwiperSlide } from 'swiper/react';
 export const Container = styled(Box)(({ theme }) => ({
   display: 'flex',
   justifyContent: 'center',
-  margin: '4px auto',
+  margin: '2px auto',
   maxWidth: '1580px',
+  '.swiper-button-prev, .swiper-button-next': {
+    color: 'transparent',
+  },
+  '.swiper-button-prev:hover, .swiper-button-next:hover': {
+    backgroundColor: theme.palette.primary.dark,
+    color: theme.palette.common.white,
+    borderRadius: '50%',
+    width: '60px',
+    height: '60px',
+    zIndex: 10,
+  },
   [theme.breakpoints.down('xl')]: {
     maxWidth: '1200px',
   },
