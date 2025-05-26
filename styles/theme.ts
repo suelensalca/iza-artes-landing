@@ -4,6 +4,11 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
+declare module '@mui/material/styles' {
+  interface BreakpointOverrides {
+    xxl: true;
+  }
+}
 
 const theme = createTheme({
   typography: {
@@ -24,6 +29,16 @@ const theme = createTheme({
     common: {
       white: '#F8F8F8',
       black: '#2E383F',
+    },
+  },
+  breakpoints: {
+    values: {
+      xs: 0,
+      sm: 600,
+      md: 900,
+      lg: 1200,
+      xl: 1536,
+      xxl: 1920,
     },
   },
   components: {

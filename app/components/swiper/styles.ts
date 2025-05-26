@@ -6,7 +6,6 @@ export const Container = styled(Box)(({ theme }) => ({
   display: 'flex',
   justifyContent: 'center',
   margin: '2px auto',
-  maxWidth: '1580px',
   '.swiper-button-prev, .swiper-button-next': {
     color: 'transparent',
   },
@@ -17,18 +16,6 @@ export const Container = styled(Box)(({ theme }) => ({
     width: '60px',
     height: '60px',
     zIndex: 10,
-  },
-  [theme.breakpoints.down('xl')]: {
-    maxWidth: '1200px',
-  },
-  [theme.breakpoints.down('lg')]: {
-    maxWidth: '900px',
-  },
-  [theme.breakpoints.down('md')]: {
-    maxWidth: '800px',
-  },
-  [theme.breakpoints.down('sm')]: {
-    maxWidth: '580px',
   },
 }));
 
@@ -42,14 +29,17 @@ export const StyledSwiperSlide = styled(SwiperSlide)(({ theme }) => ({
     objectFit: 'cover',
     width: '100%',
     height: '180px',
-    [theme.breakpoints.up('xl')]: {
+    [theme.breakpoints.up('xxl')]: {
       height: '680px',
     },
+    [theme.breakpoints.up('xl')]: {
+      height: '600px',
+    },
     [theme.breakpoints.down('xl')]: {
-      height: '490px',
+      height: '500px',
     },
     [theme.breakpoints.down('lg')]: {
-      height: '360px',
+      height: '400px',
     },
     [theme.breakpoints.down('md')]: {
       height: '290px',
