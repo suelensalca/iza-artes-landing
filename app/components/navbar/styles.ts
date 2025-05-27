@@ -13,7 +13,7 @@ export const NavigationButton = styled(ButtonBase)(({ theme }) => ({
 export const StyledToolbar = styled(Toolbar)(({ theme }) => ({
   display: 'flex',
   justifyContent: 'space-between',
-  padding: '0',
+  padding: '0 20px',
   height: '86px',
   [theme.breakpoints.up('sm')]: {
     paddingLeft: 40,

@@ -24,7 +24,7 @@ export const StyledSwiperSlide = styled(SwiperSlide)(({ theme }) => ({
   alignItems: 'center',
   justifyContent: 'center',
   borderRadius: 12,
-  backgroundColor: '#f8f8f8cc',
+  backgroundColor: '#f2f2f2',
   '& img': {
     objectFit: 'cover',
     width: '100%',
@@ -33,16 +33,16 @@ export const StyledSwiperSlide = styled(SwiperSlide)(({ theme }) => ({
       height: '680px',
     },
     [theme.breakpoints.up('xl')]: {
-      height: '600px',
+      height: '610px',
     },
     [theme.breakpoints.down('xl')]: {
-      height: '500px',
+      height: '550px',
     },
     [theme.breakpoints.down('lg')]: {
-      height: '400px',
+      height: '450px',
     },
     [theme.breakpoints.down('md')]: {
-      height: '290px',
+      height: '360px',
     },
     [theme.breakpoints.down('sm')]: {
       height: '210px',
