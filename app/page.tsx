@@ -4,7 +4,7 @@ import Intro from './components/intro';
 
 export default function Home() {
   return (
-    <Box>
+    <Box pb={4}>
       <HomeSwiper />
       <Intro />
     </Box>

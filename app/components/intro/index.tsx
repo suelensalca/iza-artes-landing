@@ -6,12 +6,12 @@ import atelieMain from '../../../public/assets/intro/atelie_main.jpg';
 import atelie1 from '../../../public/assets/intro/atelie1.webp';
 import atelie2 from '../../../public/assets/intro/atelie2.webp';
 import atelie3 from '../../../public/assets/intro/atelie3.webp';
-import atelie4 from '../../../public/assets/intro/atelie4.webp';
+import atelie4 from '../../../public/assets/intro/atelie6.webp';
 import { Constants } from './constants';
 
 export default function Intro() {
   return (
-    <Grid container m={2} spacing={4}>
+    <Grid container my={8} mx={4} spacing={4}>
       <Grid size={{ xs: 12, md: 4 }} position="relative" minHeight={{ xs: 600, md: 400 }}>
         <Image src={atelieMain} alt="iza costurando" fill style={{ objectFit: 'cover' }} />
       </Grid>

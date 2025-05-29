@@ -28,15 +28,13 @@ export const StyledSwiperSlide = styled(SwiperSlide)(({ theme }) => ({
   '& img': {
     objectFit: 'cover',
     width: '100%',
+    maxWidth: '1880px',
     height: '180px',
     [theme.breakpoints.up('xxl')]: {
-      height: '680px',
+      height: '690px',
     },
-    [theme.breakpoints.up('xl')]: {
-      height: '610px',
-    },
-    [theme.breakpoints.down('xl')]: {
-      height: '550px',
+    [theme.breakpoints.down('xxl')]: {
+      height: '570px',
     },
     [theme.breakpoints.down('lg')]: {
       height: '450px',
