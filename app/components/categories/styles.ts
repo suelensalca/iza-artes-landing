@@ -1,4 +1,4 @@
-import { Box, ButtonBase, Toolbar, Typography } from '@mui/material';
+import { Box, Button, ButtonBase, Toolbar, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { CSSProperties } from 'react';
 
@@ -6,7 +6,6 @@ export const Container = styled(Box)(({ theme }) => ({
   display: 'flex',
   justifyContent: 'space-around',
   padding: '0 160px',
-  margin: '80px 40px',
   gap: '20px',
   flexWrap: 'wrap',
   [theme.breakpoints.down('xxl')]: {
@@ -40,6 +39,24 @@ export const Title = styled(Typography)(({ theme }) => ({
   fontWeight: '500',
   textAlign: 'center',
   margin: '10px 0',
+}));
+
+export const MoreButton = styled(Button)(({ theme }) => ({
+  width: '280px',
+  margin: '32px auto 0',
+  backgroundColor: theme.palette.primary.main,
+  borderColor: theme.palette.primary.main,
+  border: '2px solid',
+  borderRadius: '40px',
+  textTransform: 'none',
+  padding: '8px 16px',
+  fontSize: '21px',
+  color: theme.palette.common.white,
+  '&:hover': {
+    border: '2px solid',
+    backgroundColor: theme.palette.primary.dark,
+    borderColor: theme.palette.primary.dark,
+  },
 }));
 
 export const StyledImage: CSSProperties = {
