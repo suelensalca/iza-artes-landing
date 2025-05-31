@@ -9,7 +9,7 @@ export const Container = styled(Box)(({ theme }) => ({
   gap: '20px',
   flexWrap: 'wrap',
   [theme.breakpoints.down('xxl')]: {
-    padding: '0 80px',
+    padding: '0 60px',
   },
   [theme.breakpoints.down('md')]: {
     padding: '0 40px',
@@ -24,12 +24,12 @@ export const ImageBox = styled(Box)(({ theme }) => ({
   height: '250px',
   width: '250px',
   [theme.breakpoints.down('xxl')]: {
-    height: '225px',
-    width: '225px',
+    height: '210px',
+    width: '210px',
   },
   [theme.breakpoints.down('lg')]: {
-    width: '190px',
-    height: '190px',
+    width: '160px',
+    height: '160px',
   },
 }));
 
