@@ -11,7 +11,7 @@ import { Container, ImageBox, MoreButton, StyledImage, Title } from './styles';
 
 export default function Categories() {
   return (
-    <Box display="flex" flexDirection="column" margin="90px 40px">
+    <Box display="flex" flexDirection="column" margin="80px 40px">
       <Container>
         <Box>
           <ImageBox>
