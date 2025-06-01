@@ -5,7 +5,7 @@ export const Title = styled(Typography)(({ theme }) => ({
   fontSize: '27px',
   fontWeight: '500',
   color: theme.palette.secondary.main,
-  margin: '16px 0',
+  marginBottom: '16px',
   [theme.breakpoints.down('md')]: {
     fontSize: '21px',
   },
@@ -58,3 +58,23 @@ export const SmallIcon = {
   fontSize: '21px',
   marginRight: '4px',
 };
+
+export const MapLink = styled(Typography)(({ theme }) => ({
+  fontSize: '18px',
+  fontWeight: 500,
+  color: theme.palette.secondary.dark,
+  backgroundColor: theme.palette.common.white,
+  display: 'flex',
+  alignItems: 'center',
+  zIndex: 300,
+  margin: '10px 10px -28px',
+  padding: '2px 8px',
+  border: '1px solid',
+  borderColor: theme.palette.secondary.dark,
+  borderRadius: '20px',
+  width: 'fit-content',
+  position: 'relative',
+  [theme.breakpoints.down('md')]: {
+    fontSize: '16px',
+  },
+}));
