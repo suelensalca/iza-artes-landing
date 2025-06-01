@@ -2,7 +2,7 @@
 
 import { Grid, Typography } from '@mui/material';
 import Image from 'next/image';
-import atelieMain from '../../../public/assets/intro/atelie_main.jpg';
+import atelieMain from '../../../public/assets/intro/atelie10.jpg';
 import atelie1 from '../../../public/assets/intro/atelie1.webp';
 import atelie2 from '../../../public/assets/intro/atelie2.webp';
 import atelie3 from '../../../public/assets/intro/atelie3.webp';
