@@ -13,7 +13,7 @@ import atelie8 from '../../../public/assets/intro/atelie8.webp';
 
 export default function About() {
   return (
-    <Grid container my={{ xs: 4, md: 8 }} mx={{ xs: 4, md: 6, xl: 10 }} spacing={4}>
+    <Grid container my={{ xs: 2, md: 4, xl: 8 }} mx={{ xs: 4, md: 6, xl: 10 }} spacing={4}>
       <Grid size={{ xs: 12, lg: 7 }}>
         <Typography fontWeight={600} color="secondary.main" mb={2}>
           {Constants.title}
