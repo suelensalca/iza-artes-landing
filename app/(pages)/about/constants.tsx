@@ -7,7 +7,7 @@ export const Constants = {
   textProducts:
     'Entre os principais produtos estão necessaires, bolsas, carteiras, ecobags, porta óculos, panos de prato e itens de cozinha. Tudo é feito à mão, com tecidos escolhidos a dedo, acabamentos caprichados e um olhar especial para a harmonia entre materiais e composição. As peças também podem incluir bordados personalizados, com nomes, logos ou imagens.',
   textMarket:
-    'Além das encomendas, parte da produção da Iza Artes está disponível à pronta entrega no Box 304 do Mercado Municipal de Curitiba, um espaço onde a criatividade de diversos artesãos se encontra. Faça uma visita e conheça de perto produções autorais de cerâmica, tecido, pintura e muito mais!',
+    'Além das encomendas, parte da produção da Iza Artes está disponível à pronta entrega no Box 304 do Mercado Municipal de Curitiba, um espaço onde a criatividade de diversos artesãos se encontra. Faça uma visita e conheça de perto produtos em cerâmica, tecido, madeira e muito mais!',
   textEnd:
     'Mais do que uma marca, a Iza Artes representa uma história de carinho e dedicação pelo feito à mão.',
 };
