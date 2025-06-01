@@ -1,7 +1,7 @@
 import { Button, TextField } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
-export const StyledInput = styled(TextField)(({ theme }) => ({
+export const StyledInput = styled(TextField)(() => ({
   '& .MuiInputBase-input': {
     fontSize: '18px',
   },

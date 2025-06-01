@@ -16,7 +16,9 @@ const eslintConfig = [
       'prettier/prettier': 'warn',
       semi: ['error'],
       'prefer-arrow-callback': ['error'],
-      'no-unused-var': ['warn'],
+      'no-unused-vars': ['warn'],
+      'no-unused-expressions': ['warn'],
+       '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
     },
   }),
 ];
