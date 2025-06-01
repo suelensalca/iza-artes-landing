@@ -35,22 +35,22 @@ export default function About() {
         </Typography>
         <Grid container spacing={2}>
           <Grid size={4} position="relative" minHeight={{ xs: 140, sm: 160, md: 200, lg: 220 }}>
-            <Image src={atelie8} alt="maquina" fill style={{ objectFit: 'cover' }} />
+            <Image src={atelie8} alt="pano bordado" fill style={{ objectFit: 'cover' }} />
           </Grid>
           <Grid size={4} position="relative" minHeight={{ xs: 140, sm: 160, md: 200, lg: 220 }}>
-            <Image src={atelie1} alt="balcao" fill style={{ objectFit: 'cover' }} />
+            <Image src={atelie1} alt="maquina" fill style={{ objectFit: 'cover' }} />
           </Grid>
           <Grid size={4} position="relative" minHeight={{ xs: 140, sm: 160, md: 200, lg: 220 }}>
-            <Image src={atelie2} alt="bordado" fill style={{ objectFit: 'cover' }} />
+            <Image src={atelie2} alt="balcao" fill style={{ objectFit: 'cover' }} />
           </Grid>
           <Grid size={4} position="relative" minHeight={{ xs: 140, sm: 160, md: 200, lg: 220 }}>
-            <Image src={atelie3} alt="maquina" fill style={{ objectFit: 'cover' }} />
+            <Image src={atelie3} alt="bordado" fill style={{ objectFit: 'cover' }} />
           </Grid>
           <Grid size={4} position="relative" minHeight={{ xs: 140, sm: 160, md: 200, lg: 220 }}>
-            <Image src={atelie6} alt="balcao" fill style={{ objectFit: 'cover' }} />
+            <Image src={atelie6} alt="acabamento" fill style={{ objectFit: 'cover' }} />
           </Grid>
           <Grid size={4} position="relative" minHeight={{ xs: 140, sm: 160, md: 200, lg: 220 }}>
-            <Image src={atelie5} alt="bordado" fill style={{ objectFit: 'cover' }} />
+            <Image src={atelie5} alt="costura" fill style={{ objectFit: 'cover' }} />
           </Grid>
         </Grid>
       </Grid>
