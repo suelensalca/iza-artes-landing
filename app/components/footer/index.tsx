@@ -6,7 +6,7 @@ import LocationPinIcon from '@mui/icons-material/LocationPin';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
-import { Box, Typography } from '@mui/material';
+import { Box } from '@mui/material';
 import Link from 'next/link';
 import {
   CleanLink,
