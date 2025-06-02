@@ -17,9 +17,9 @@ export const StyledInput = styled(TextField)(() => ({
 }));
 
 export const SendButton = styled(Button)(({ theme }) => ({
-  width: '280px',
-  backgroundColor: theme.palette.primary.main,
-  borderColor: theme.palette.primary.main,
+  width: '220px',
+  backgroundColor: theme.palette.secondary.dark,
+  borderColor: theme.palette.secondary.dark,
   border: '2px solid',
   borderRadius: '40px',
   textTransform: 'none',
@@ -28,7 +28,7 @@ export const SendButton = styled(Button)(({ theme }) => ({
   color: theme.palette.common.white,
   '&:hover': {
     border: '2px solid',
-    backgroundColor: theme.palette.primary.dark,
-    borderColor: theme.palette.primary.dark,
+    backgroundColor: theme.palette.secondary.dark,
+    borderColor: theme.palette.secondary.dark,
   },
 }));

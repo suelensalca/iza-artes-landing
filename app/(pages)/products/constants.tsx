@@ -1,0 +1,17 @@
+export const productsMenu = [
+  { id: 1, name: 'aventais' },
+  { id: 2, name: 'bolsas' },
+  { id: 3, name: 'carteiras' },
+  { id: 4, name: 'diversos' },
+  { id: 5, name: 'ecobags' },
+  { id: 6, name: 'estojos' },
+  { id: 7, name: 'infantil' },
+  { id: 8, name: 'kits de cozinha' },
+  { id: 9, name: 'lancheiras' },
+  { id: 10, name: 'necessaires' },
+  { id: 11, name: 'óculos' },
+  { id: 12, name: 'panos de prato' },
+  { id: 13, name: 'puxa sacos' },
+  { id: 14, name: 'toalhas' },
+  { id: 15, name: 'toucas' },
+];
