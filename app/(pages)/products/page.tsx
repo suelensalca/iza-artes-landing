@@ -33,7 +33,7 @@ export default function Products() {
               <Title>{selectedItem.product}</Title>
             </Grid>
             {selectedItem.images.map((prod) =>
-              selectedItem.id === 6 ? (
+              selectedItem.id === 6 || selectedItem.id === 16 ? (
                 <Grid
                   key={prod.id}
                   size={{ xs: 12, md: 6, xxl: 4 }}

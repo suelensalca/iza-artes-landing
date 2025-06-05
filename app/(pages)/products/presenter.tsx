@@ -73,6 +73,11 @@ import puxasaco1 from '../../assets/products/puxaSacos/puxasaco1.jpeg';
 import puxasaco2 from '../../assets/products/puxaSacos/puxasaco2.jpeg';
 import puxasaco3 from '../../assets/products/puxaSacos/puxasaco3.jpeg';
 import puxasaco4 from '../../assets/products/puxaSacos/puxasaco4.jpeg';
+import toalha1 from '../../assets/products/toalhas/toalha1.jpeg';
+import toalha2 from '../../assets/products/toalhas/toalha2.jpeg';
+import toalha3 from '../../assets/products/toalhas/toalha3.jpeg';
+import touca1 from '../../assets/products/toucas/touca1.jpeg';
+import touca2 from '../../assets/products/toucas/touca2.jpeg';
 
 export const aventaisImgs = [
   { id: 1, image: avental1, name: 'avental 1' },
@@ -191,6 +196,17 @@ export const puxasacosImgs = [
   { id: 4, image: puxasaco4, name: 'puxasaco 4' },
 ];
 
+export const toalhasImgs = [
+  { id: 1, image: toalha1, name: 'toalha 1' },
+  { id: 2, image: toalha2, name: 'toalha 2' },
+  { id: 3, image: toalha3, name: 'toalha 3' },
+];
+
+export const toucasImgs = [
+  { id: 1, image: touca1, name: 'touca 1' },
+  { id: 2, image: touca2, name: 'touca 2' },
+];
+
 export const productsImgs = [
   {
     id: 1,
@@ -265,11 +281,11 @@ export const productsImgs = [
   {
     id: 15,
     product: 'Toalhas',
-    images: [],
+    images: toalhasImgs,
   },
   {
     id: 16,
     product: 'Toucas',
-    images: [],
+    images: toucasImgs,
   },
 ];

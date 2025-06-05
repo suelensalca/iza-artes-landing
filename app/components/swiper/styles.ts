@@ -30,9 +30,6 @@ export const StyledSwiperSlide = styled(SwiperSlide)(({ theme }) => ({
     width: '100%',
     maxWidth: '1920px',
     height: '620px',
-    // [theme.breakpoints.up('xxl')]: {
-    //   height: '620px',
-    // },
     [theme.breakpoints.down('xxl')]: {
       height: '480px',
     },
