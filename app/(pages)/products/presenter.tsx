@@ -72,6 +72,7 @@ import portaoculos4 from '../../assets/products/portaOculos/portaoculos4.jpeg';
 import puxasaco1 from '../../assets/products/puxaSacos/puxasaco1.jpeg';
 import puxasaco2 from '../../assets/products/puxaSacos/puxasaco2.jpeg';
 import puxasaco3 from '../../assets/products/puxaSacos/puxasaco3.jpeg';
+import puxasaco4 from '../../assets/products/puxaSacos/puxasaco4.jpeg';
 
 export const aventaisImgs = [
   { id: 1, image: avental1, name: 'avental 1' },
@@ -187,6 +188,7 @@ export const puxasacosImgs = [
   { id: 1, image: puxasaco1, name: 'puxasaco 1' },
   { id: 2, image: puxasaco2, name: 'puxasaco 2' },
   { id: 3, image: puxasaco3, name: 'puxasaco 3' },
+  { id: 4, image: puxasaco4, name: 'puxasaco 4' },
 ];
 
 export const productsImgs = [
