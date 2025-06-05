@@ -46,7 +46,7 @@ export default function Footer() {
           </Info>
           <Info>
             <EmailIcon sx={SmallIcon} />
-            iza_martinelli@hotmail.com
+            iza.martinelli.artes@gmail.com
           </Info>
           <Info sx={{ alignItems: 'flex-start' }}>
             <LocationPinIcon sx={SmallIcon} />
@@ -69,7 +69,7 @@ export default function Footer() {
               <WhatsAppIcon sx={{ fontSize: { xs: 36, sm: 45 } }} />
             </CleanLink>
             <CleanLink
-              href="mailto:iza_martinelli@hotmail.com"
+              href="mailto:iza.martinelli.artes@gmail.com"
               target="_blank"
               rel="noopener noreferrer">
               <EmailIcon sx={{ fontSize: { xs: 36, sm: 45 } }} />

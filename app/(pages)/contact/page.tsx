@@ -23,7 +23,7 @@ export default function Contact() {
         </Info>
         <Info>
           <EmailIcon sx={SmallIcon} />
-          iza_martinelli@hotmail.com
+          iza.martinelli.artes@gmail.com
         </Info>
         <Info sx={{ alignItems: 'flex-start' }}>
           <LocationPinIcon sx={SmallIcon} />
@@ -44,7 +44,7 @@ export default function Contact() {
             <WhatsAppIcon sx={{ fontSize: { xs: 32, sm: 40 } }} />
           </CleanLink>
           <CleanLink
-            href="mailto:iza_martinelli@hotmail.com"
+            href="mailto:iza.martinelli.artes@gmail.com"
             target="_blank"
             rel="noopener noreferrer">
             <EmailIcon sx={{ fontSize: { xs: 32, sm: 40 } }} />
