@@ -6,7 +6,7 @@ export const Menu = styled(Box)(({ theme }) => ({
   backgroundColor: theme.palette.common.white,
   boxShadow: theme.shadows[1],
   minWidth: '200px',
-  padding: '28px 0 12px',
+  padding: '20px 0 12px',
   [theme.breakpoints.down('md')]: {
     minWidth: '150px',
     padding: '14px 0 6px',
@@ -15,7 +15,7 @@ export const Menu = styled(Box)(({ theme }) => ({
 
 export const MenuTitle = styled(ListItemButton)(({ theme }) => ({
   color: theme.palette.primary.dark,
-  fontSize: '18px',
+  fontSize: '20px',
   fontWeight: '500',
   paddingLeft: '28px',
   '&.MuiListItemButton-root:hover': {

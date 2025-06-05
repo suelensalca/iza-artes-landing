@@ -15,8 +15,8 @@ export default function Navbar() {
           <Image
             src={logo}
             alt="logo iza artes"
-            width={64}
-            height={64}
+            width={68}
+            height={68}
             style={{ marginBottom: '-6px' }}
           />
         </Link>

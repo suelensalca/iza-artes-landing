@@ -8,6 +8,7 @@ import panoprato from '../../assets/categories/panoprato.jpeg';
 import portaoculos from '../../assets/categories/portaoculos.jpeg';
 import Image from 'next/image';
 import { Container, ImageBox, MoreButton, StyledImage, Title } from './styles';
+import Link from 'next/link';
 
 export default function Categories() {
   return (
@@ -44,7 +45,9 @@ export default function Categories() {
           <Title>Porta Óculos</Title>
         </Box>
       </Container>
-      <MoreButton>ver todos os produtos</MoreButton>
+      <Link href="/products" style={{ margin: 'auto' }}>
+        <MoreButton>ver todos os produtos</MoreButton>
+      </Link>
     </Box>
   );
 }
