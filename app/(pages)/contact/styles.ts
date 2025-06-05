@@ -14,7 +14,7 @@ export const Title = styled(Typography)(({ theme }) => ({
 export const Info = styled(Typography)(({ theme }) => ({
   fontSize: '18px',
   fontWeight: 500,
-  color: theme.palette.secondary.dark,
+  color: theme.palette.secondary.main,
   display: 'flex',
   alignItems: 'center',
   marginBottom: '6px',

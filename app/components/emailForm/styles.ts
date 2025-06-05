@@ -18,8 +18,8 @@ export const StyledInput = styled(TextField)(() => ({
 
 export const SendButton = styled(Button)(({ theme }) => ({
   width: '220px',
-  backgroundColor: theme.palette.secondary.dark,
-  borderColor: theme.palette.secondary.dark,
+  backgroundColor: theme.palette.secondary.main,
+  borderColor: theme.palette.secondary.main,
   border: '2px solid',
   borderRadius: '40px',
   textTransform: 'none',
