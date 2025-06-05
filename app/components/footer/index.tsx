@@ -42,11 +42,11 @@ export default function Footer() {
           <Title>Contato</Title>
           <Info>
             <LocalPhoneIcon sx={SmallIcon} />
-            (41) 99999-9999
+            {process.env.NEXT_PUBLIC_CELL_FORMAT}
           </Info>
           <Info>
             <EmailIcon sx={SmallIcon} />
-            iza_martinelli@hotmail.com
+            iza.martinelli.artes@gmail.com
           </Info>
           <Info sx={{ alignItems: 'flex-start' }}>
             <LocationPinIcon sx={SmallIcon} />
@@ -62,11 +62,14 @@ export default function Footer() {
               rel="noopener noreferrer">
               <InstagramIcon sx={{ fontSize: { xs: 36, sm: 45 } }} />
             </CleanLink>
-            <CleanLink href="https://wa.me/5541999999999" target="_blank" rel="noopener noreferrer">
+            <CleanLink
+              href={`https://wa.me/55${process.env.NEXT_PUBLIC_CELL}`}
+              target="_blank"
+              rel="noopener noreferrer">
               <WhatsAppIcon sx={{ fontSize: { xs: 36, sm: 45 } }} />
             </CleanLink>
             <CleanLink
-              href="mailto:iza_martinelli@hotmail.com"
+              href="mailto:iza.martinelli.artes@gmail.com"
               target="_blank"
               rel="noopener noreferrer">
               <EmailIcon sx={{ fontSize: { xs: 36, sm: 45 } }} />
