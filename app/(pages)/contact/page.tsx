@@ -19,7 +19,7 @@ export default function Contact() {
         <Title>Contato</Title>
         <Info>
           <LocalPhoneIcon sx={SmallIcon} />
-          (41) 99999-9999
+          {process.env.NEXT_PUBLIC_CELL_FORMAT}
         </Info>
         <Info>
           <EmailIcon sx={SmallIcon} />
@@ -37,7 +37,10 @@ export default function Contact() {
             rel="noopener noreferrer">
             <InstagramIcon sx={{ fontSize: { xs: 32, sm: 40 } }} />
           </CleanLink>
-          <CleanLink href="https://wa.me/5541999999999" target="_blank" rel="noopener noreferrer">
+          <CleanLink
+            href={`https://wa.me/55${process.env.NEXT_PUBLIC_CELL}`}
+            target="_blank"
+            rel="noopener noreferrer">
             <WhatsAppIcon sx={{ fontSize: { xs: 32, sm: 40 } }} />
           </CleanLink>
           <CleanLink

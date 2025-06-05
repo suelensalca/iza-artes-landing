@@ -64,7 +64,7 @@ export default function Products() {
             <Grid size={12} textAlign="center">
               {selectedItem.id !== 0 && (
                 <CleanLink
-                  href={`https://wa.me/5541999999999?text=${encodeURIComponent(`Olá, gostaria de fazer um orçamento de ${selectedItem.product}!`)}`}
+                  href={`https://wa.me/55${process.env.NEXT_PUBLIC_CELL}?text=${encodeURIComponent(`Olá, gostaria de fazer um orçamento de ${selectedItem.product}!`)}`}
                   target="_blank"
                   rel="noopener noreferrer">
                   <MoreButton>faça um orçamento</MoreButton>
