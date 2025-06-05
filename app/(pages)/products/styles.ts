@@ -1,5 +1,6 @@
-import { Box, Button, ListItemButton, Typography } from '@mui/material';
+import { Box, Button, IconButton, ListItemButton, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
+import ArrowCircleLeftOutlinedIcon from '@mui/icons-material/ArrowCircleLeftOutlined';
 
 export const Menu = styled(Box)(({ theme }) => ({
   backgroundColor: theme.palette.common.white,
@@ -75,3 +76,27 @@ export const CleanLink = styled('a')({
     color: 'inherit',
   },
 });
+
+export const BackButton = styled(IconButton)(({ theme }) => ({
+  margin: '-50px 0 -10px -80px',
+  [theme.breakpoints.down('xxl')]: {
+    margin: '-40px 0 -10px -50px',
+  },
+  [theme.breakpoints.down('lg')]: {
+    margin: '-40px 0 -10px -40px',
+  },
+  [theme.breakpoints.down('md')]: {
+    margin: '-20px 0 -10px -20px',
+  },
+}));
+
+export const StyledIcon = styled(ArrowCircleLeftOutlinedIcon)(({ theme }) => ({
+  color: '#0081a7',
+  fontSize: '44px',
+  [theme.breakpoints.down('xxl')]: {
+    fontSize: '40px',
+  },
+  [theme.breakpoints.down('md')]: {
+    fontSize: '32px',
+  },
+}));

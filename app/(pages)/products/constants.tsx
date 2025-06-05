@@ -1,3 +1,8 @@
+export const Constants = {
+  initialText:
+    'As peças da Iza Artes são confeccionadas com tecidos de alta qualidade, incluindo estampas digitais e opções impermeáveis ou de alta absorção, conforme a necessidade de cada peça. Todos os elementos — linhas, botões, zíperes e fitas decorativas — são cuidadosamente selecionados para garantir o melhor acabamento e a durabilidade do produto. Além disso, as peças são personalizadas conforme as demandas do cliente, podendo incluir forro, bolsos internos e externos, e bordados personalizados.',
+};
+
 export const productsMenu = [
   { id: 1, name: 'aventais' },
   { id: 2, name: 'bolsas' },

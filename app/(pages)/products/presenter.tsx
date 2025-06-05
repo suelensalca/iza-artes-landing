@@ -78,6 +78,17 @@ import toalha2 from '../../assets/products/toalhas/toalha2.jpeg';
 import toalha3 from '../../assets/products/toalhas/toalha3.jpeg';
 import touca1 from '../../assets/products/toucas/touca1.jpeg';
 import touca2 from '../../assets/products/toucas/touca2.jpeg';
+import initial1 from '../../assets/products/initial/initial1.jpeg';
+import initial2 from '../../assets/products/initial/initial2.jpeg';
+import initial3 from '../../assets/products/initial/initial3.jpeg';
+import initial4 from '../../assets/products/initial/initial4.jpeg';
+
+export const initialImgs = [
+  { id: 1, image: initial1, name: 'initial 1' },
+  { id: 2, image: initial2, name: 'initial 2' },
+  { id: 3, image: initial3, name: 'initial 3' },
+  { id: 4, image: initial4, name: 'initial 4' },
+];
 
 export const aventaisImgs = [
   { id: 1, image: avental1, name: 'avental 1' },
@@ -208,6 +219,11 @@ export const toucasImgs = [
 ];
 
 export const productsImgs = [
+  {
+    id: 0,
+    product: 'Início',
+    images: initialImgs,
+  },
   {
     id: 1,
     product: 'Aventais',
