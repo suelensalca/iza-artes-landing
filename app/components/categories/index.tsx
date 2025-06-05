@@ -1,13 +1,14 @@
 'use client';
 
 import { Box } from '@mui/material';
-import necessaire from '../../../public/assets/categories/necessaire.jpeg';
-import ecobag from '../../../public/assets/categories/ecobag.jpeg';
-import carteira from '../../../public/assets/categories/carteira.jpeg';
-import panoprato from '../../../public/assets/categories/panoprato.jpeg';
-import portaoculos from '../../../public/assets/categories/portaoculos.jpeg';
+import necessaire from '../../assets/categories/necessaire.jpeg';
+import ecobag from '../../assets/categories/ecobag.jpeg';
+import carteira from '../../assets/categories/carteira.jpeg';
+import panoprato from '../../assets/categories/panoprato.jpeg';
+import portaoculos from '../../assets/categories/portaoculos.jpeg';
 import Image from 'next/image';
 import { Container, ImageBox, MoreButton, StyledImage, Title } from './styles';
+import Link from 'next/link';
 
 export default function Categories() {
   return (
@@ -44,7 +45,9 @@ export default function Categories() {
           <Title>Porta Óculos</Title>
         </Box>
       </Container>
-      <MoreButton>ver todos os produtos</MoreButton>
+      <Link href="/products" style={{ margin: 'auto' }}>
+        <MoreButton>ver todos os produtos</MoreButton>
+      </Link>
     </Box>
   );
 }

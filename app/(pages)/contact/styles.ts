@@ -4,7 +4,7 @@ import { styled } from '@mui/material/styles';
 export const Title = styled(Typography)(({ theme }) => ({
   fontSize: '27px',
   fontWeight: '500',
-  color: theme.palette.secondary.main,
+  color: theme.palette.secondary.dark,
   marginBottom: '16px',
   [theme.breakpoints.down('md')]: {
     fontSize: '21px',
@@ -14,7 +14,7 @@ export const Title = styled(Typography)(({ theme }) => ({
 export const Info = styled(Typography)(({ theme }) => ({
   fontSize: '18px',
   fontWeight: 500,
-  color: theme.palette.secondary.dark,
+  color: theme.palette.secondary.main,
   display: 'flex',
   alignItems: 'center',
   marginBottom: '6px',

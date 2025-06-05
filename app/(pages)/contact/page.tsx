@@ -6,7 +6,7 @@ import LocationPinIcon from '@mui/icons-material/LocationPin';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import Image from 'next/image';
-import mapImg from '../../../public/assets/map.webp';
+import mapImg from '../../assets/map.webp';
 
 import { Box, Grid } from '@mui/material';
 import { CleanLink, Info, MapGrid, MapLink, SmallIcon, Title } from './styles';
@@ -30,7 +30,7 @@ export default function Contact() {
           Av. Sete de Setembro, 1865 - Centro, Curitiba - PR, BOX 304
         </Info>
         <Title mt={6}>Redes Sociais</Title>
-        <Box sx={{ color: 'secondary.dark', display: 'flex', gap: '20px' }}>
+        <Box sx={{ color: 'secondary.main', display: 'flex', gap: '20px' }}>
           <CleanLink
             href="https://www.instagram.com/izamartinelli.artes"
             target="_blank"

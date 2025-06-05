@@ -2,8 +2,9 @@ import { ButtonBase, Toolbar } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
 export const NavigationButton = styled(ButtonBase)(({ theme }) => ({
-  fontSize: '18px',
+  fontSize: '20px',
   fontWeight: 600,
+  padding: '10px 16px',
   color: theme.palette.common.black,
   '&:hover': {
     color: theme.palette.primary.main,

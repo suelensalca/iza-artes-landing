@@ -2,11 +2,11 @@
 
 import { Grid, Typography } from '@mui/material';
 import Image from 'next/image';
-import atelieMain from '../../../public/assets/intro/atelie10.jpg';
-import atelie1 from '../../../public/assets/intro/atelie1.webp';
-import atelie2 from '../../../public/assets/intro/atelie2.webp';
-import atelie3 from '../../../public/assets/intro/atelie3.webp';
-import atelie4 from '../../../public/assets/intro/atelie6.webp';
+import atelieMain from '../../assets/intro/atelie10.jpg';
+import atelie1 from '../../assets/intro/atelie1.webp';
+import atelie2 from '../../assets/intro/atelie2.webp';
+import atelie3 from '../../assets/intro/atelie3.webp';
+import atelie4 from '../../assets/intro/atelie6.webp';
 import { Constants } from './constants';
 
 export default function Intro() {
