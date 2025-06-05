@@ -6,6 +6,10 @@ export const Menu = styled(Box)(({ theme }) => ({
   boxShadow: theme.shadows[1],
   minWidth: '200px',
   padding: '28px 0 12px',
+  [theme.breakpoints.down('md')]: {
+    minWidth: '150px',
+    padding: '14px 0 6px',
+  },
 }));
 
 export const MenuTitle = styled(ListItemButton)(({ theme }) => ({
@@ -21,13 +25,16 @@ export const MenuTitle = styled(ListItemButton)(({ theme }) => ({
       color: theme.palette.primary.main,
     },
   },
+  [theme.breakpoints.down('md')]: {
+    paddingLeft: '20px',
+    fontSize: '16px',
+  },
 }));
 
 export const Title = styled(Typography)(({ theme }) => ({
   fontSize: '32px',
   fontWeight: '500',
   color: theme.palette.secondary.main,
-  marginBottom: '16px',
   [theme.breakpoints.down('md')]: {
     fontSize: '21px',
   },
@@ -48,5 +55,9 @@ export const MoreButton = styled(Button)(({ theme }) => ({
     border: '2px solid',
     backgroundColor: theme.palette.primary.dark,
     borderColor: theme.palette.primary.dark,
+  },
+  [theme.breakpoints.down('sm')]: {
+    fontSize: '16px',
+    width: '200px',
   },
 }));
