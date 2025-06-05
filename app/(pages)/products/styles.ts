@@ -61,3 +61,17 @@ export const MoreButton = styled(Button)(({ theme }) => ({
     width: '200px',
   },
 }));
+
+export const CleanLink = styled('a')({
+  textDecoration: 'none',
+  color: 'inherit',
+  '&:visited': {
+    color: 'inherit',
+  },
+  '&:hover': {
+    color: 'inherit',
+  },
+  '&:active': {
+    color: 'inherit',
+  },
+});

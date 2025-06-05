@@ -1,7 +1,7 @@
 'use client';
 
 import { Box, Grid, List, ListItem } from '@mui/material';
-import { Menu, MenuTitle, MoreButton, Title } from './styles';
+import { CleanLink, Menu, MenuTitle, MoreButton, Title } from './styles';
 import Image from 'next/image';
 import { productsMenu } from './constants';
 import { useState } from 'react';
@@ -52,7 +52,12 @@ export default function Products() {
               )
             )}
             <Grid size={12} textAlign="center">
-              <MoreButton>faça um orçamento</MoreButton>
+              <CleanLink
+                href={`https://wa.me/5541999999999?text=${encodeURIComponent(`Olá, gostaria de fazer um orçamento de ${selectedItem.product}!`)}`}
+                target="_blank"
+                rel="noopener noreferrer">
+                <MoreButton>faça um orçamento</MoreButton>
+              </CleanLink>
             </Grid>
           </>
         )}
