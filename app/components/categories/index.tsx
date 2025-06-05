@@ -1,11 +1,11 @@
 'use client';
 
 import { Box } from '@mui/material';
-import necessaire from '../../../public/assets/categories/necessaire.jpeg';
-import ecobag from '../../../public/assets/categories/ecobag.jpeg';
-import carteira from '../../../public/assets/categories/carteira.jpeg';
-import panoprato from '../../../public/assets/categories/panoprato.jpeg';
-import portaoculos from '../../../public/assets/categories/portaoculos.jpeg';
+import necessaire from '../../assets/categories/necessaire.jpeg';
+import ecobag from '../../assets/categories/ecobag.jpeg';
+import carteira from '../../assets/categories/carteira.jpeg';
+import panoprato from '../../assets/categories/panoprato.jpeg';
+import portaoculos from '../../assets/categories/portaoculos.jpeg';
 import Image from 'next/image';
 import { Container, ImageBox, MoreButton, StyledImage, Title } from './styles';
 

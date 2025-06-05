@@ -3,7 +3,7 @@
 import AppBar from '@mui/material/AppBar';
 import { Box } from '@mui/material';
 import Image from 'next/image';
-import logo from '../../../public/assets/logo_iza.png';
+import logo from '../../assets/logo_iza.png';
 import { NavigationButton, StyledToolbar } from './styles';
 import Link from 'next/link';
 

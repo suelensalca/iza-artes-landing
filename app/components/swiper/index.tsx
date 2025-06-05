@@ -8,10 +8,10 @@ import 'swiper/css/pagination';
 import Image from 'next/image';
 import { Swiper } from 'swiper/react';
 
-import banner1 from './../../../public/assets/banner/banner_1.png';
-import banner2 from './../../../public/assets/banner/banner_2.png';
-import banner3 from './../../../public/assets/banner/banner_3.png';
-import banner4 from './../../../public/assets/banner/banner_4.png';
+import banner1 from './../../assets/banner/banner_1.png';
+import banner2 from './../../assets/banner/banner_2.png';
+import banner3 from './../../assets/banner/banner_3.png';
+import banner4 from './../../assets/banner/banner_4.png';
 import { Container, StyledSwiperSlide } from './styles';
 
 export default function HomeSwiper() {

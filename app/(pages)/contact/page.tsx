@@ -6,7 +6,7 @@ import LocationPinIcon from '@mui/icons-material/LocationPin';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import Image from 'next/image';
-import mapImg from '../../../public/assets/map.webp';
+import mapImg from '../../assets/map.webp';
 
 import { Box, Grid } from '@mui/material';
 import { CleanLink, Info, MapGrid, MapLink, SmallIcon, Title } from './styles';

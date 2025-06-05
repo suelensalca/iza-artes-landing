@@ -3,9 +3,9 @@
 import { Box, Grid, List, ListItem } from '@mui/material';
 import { Menu, MenuTitle, MoreButton, Title } from './styles';
 import Image from 'next/image';
-import atelie1 from '../../../public/assets/intro/atelie1.webp';
-import atelie2 from '../../../public/assets/intro/atelie2.webp';
-import atelie8 from '../../../public/assets/intro/atelie8.webp';
+import atelie1 from '../../assets/intro/atelie1.webp';
+import atelie2 from '../../assets/intro/atelie2.webp';
+import atelie8 from '../../assets/intro/atelie8.webp';
 import { productsMenu } from './constants';
 
 export default function Products() {

@@ -3,13 +3,13 @@
 import { Grid, Typography } from '@mui/material';
 import Image from 'next/image';
 import { Constants } from './constants';
-import atelieMain from '../../../public/assets/intro/atelie9.webp';
-import atelie1 from '../../../public/assets/intro/atelie1.webp';
-import atelie2 from '../../../public/assets/intro/atelie2.webp';
-import atelie3 from '../../../public/assets/intro/atelie3.webp';
-import atelie5 from '../../../public/assets/intro/atelie5.webp';
-import atelie6 from '../../../public/assets/intro/atelie6.webp';
-import atelie8 from '../../../public/assets/intro/atelie8.webp';
+import atelieMain from '../../assets/intro/atelie9.webp';
+import atelie1 from '../../assets/intro/atelie1.webp';
+import atelie2 from '../../assets/intro/atelie2.webp';
+import atelie3 from '../../assets/intro/atelie3.webp';
+import atelie5 from '../../assets/intro/atelie5.webp';
+import atelie6 from '../../assets/intro/atelie6.webp';
+import atelie8 from '../../assets/intro/atelie8.webp';
 
 export default function About() {
   return (
