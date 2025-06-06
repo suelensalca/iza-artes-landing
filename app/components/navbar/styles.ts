@@ -9,6 +9,9 @@ export const NavigationButton = styled(ButtonBase)(({ theme }) => ({
   '&:hover': {
     color: theme.palette.primary.main,
   },
+  [theme.breakpoints.down('sm')]: {
+    fontSize: '16px',
+  },
 }));
 
 export const StyledToolbar = styled(Toolbar)(({ theme }) => ({

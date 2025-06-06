@@ -25,7 +25,7 @@ export default function Products() {
       <Grid
         container
         width="100%"
-        m={{ xs: '20px 40px', sm: '20px', md: '40px', lg: '40px 60px', xxl: '60px 140px' }}
+        m={{ xs: '12px', sm: '20px', md: '40px', lg: '40px 60px', xxl: '60px 140px' }}
         spacing={{ xs: 2, lg: 3, xl: 6 }}>
         {selectedItem && (
           <>

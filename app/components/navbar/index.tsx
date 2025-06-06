@@ -20,7 +20,7 @@ export default function Navbar() {
             style={{ marginBottom: '-6px' }}
           />
         </Link>
-        <Box display="flex" gap="80px">
+        <Box display="flex" gap={{ md: '80px' }}>
           <Link href="/products">
             <NavigationButton disableTouchRipple>Produtos</NavigationButton>
           </Link>
