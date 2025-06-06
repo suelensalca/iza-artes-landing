@@ -11,6 +11,10 @@ export const Menu = styled(Box)(({ theme }) => ({
     minWidth: '150px',
     padding: '14px 0 6px',
   },
+  [theme.breakpoints.down('sm')]: {
+    minWidth: '120px',
+    padding: '14px 0 6px',
+  },
 }));
 
 export const MenuTitle = styled(ListItemButton)(({ theme }) => ({
@@ -87,6 +91,9 @@ export const BackButton = styled(IconButton)(({ theme }) => ({
   },
   [theme.breakpoints.down('md')]: {
     margin: '-20px 0 -10px -20px',
+  },
+  [theme.breakpoints.down('sm')]: {
+    margin: '-10px 0 -10px -10px',
   },
 }));
 
