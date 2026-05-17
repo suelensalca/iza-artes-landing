@@ -107,3 +107,42 @@ export const StyledIcon = styled(ArrowCircleLeftOutlinedIcon)(({ theme }) => ({
     fontSize: '32px',
   },
 }));
+
+export const ModalContent = styled(Box)(() => ({
+  position: 'absolute',
+  top: '50%',
+  left: '50%',
+  transform: 'translate(-50%, -50%)',
+  width: 'auto',
+  height: 'auto',
+  backgroundColor: 'transparent',
+  borderRadius: '12px',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  outline: 'none',
+}));
+
+export const CloseButton = styled(IconButton)(({ theme }) => ({
+  position: 'absolute',
+  top: '-4px',
+  right: '-4px',
+  color: theme.palette.primary.main,
+  backgroundColor: theme.palette.common.white,
+  '&:hover': {
+    backgroundColor: theme.palette.primary.main,
+    color: theme.palette.common.white,
+  },
+  zIndex: 1,
+  transition: 'all 0.2s ease-in-out',
+  fontSize: '32px',
+  boxShadow: theme.shadows[1],
+}));
+
+export const ImageContainer = styled(Box)({
+  position: 'relative',
+  marginTop: '20px',
+  width: '70vw',
+  height: '87vh',
+  overflow: 'hidden',
+});

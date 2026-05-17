@@ -6,10 +6,26 @@ import Image from 'next/image';
 import { Constants, productsMenu } from './constants';
 import { useState } from 'react';
 import { productsImgs } from './presenter';
+import { ImageModal } from './modal';
 
 export default function Products() {
   const [selectedProduct, setSelectedProduct] = useState(0);
+  const [modalOpen, setModalOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [selectedImageAlt, setSelectedImageAlt] = useState('');
   const selectedItem = productsImgs.find((type) => type.id === selectedProduct);
+
+  const handleImageClick = (image: string | { src: string }, name: string) => {
+    const imageSrc = typeof image === 'string' ? image : image.src;
+    setSelectedImage(imageSrc);
+    setSelectedImageAlt(name);
+    setModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setModalOpen(false);
+    setSelectedImage(null);
+  };
 
   return (
     <Box display="flex">
@@ -48,7 +64,9 @@ export default function Products() {
                   key={prod.id}
                   size={{ xs: 12, md: 6, xxl: 4 }}
                   position="relative"
-                  minHeight={{ xs: 240, sm: 320, md: 260, lg: 300, xl: 380 }}>
+                  minHeight={{ xs: 240, sm: 320, md: 260, lg: 300, xl: 380 }}
+                  sx={{ cursor: 'pointer', '&:hover': { opacity: 0.8 } }}
+                  onClick={() => handleImageClick(prod.image, prod.name)}>
                   <Image src={prod.image} alt={prod.name} fill style={{ objectFit: 'cover' }} />
                 </Grid>
               ) : (
@@ -56,7 +74,9 @@ export default function Products() {
                   key={prod.id}
                   size={{ xs: 12, sm: 6, lg: 3 }}
                   position="relative"
-                  minHeight={{ xs: 400, sm: 360, md: 520, lg: 300, xl: 380, xxl: 440 }}>
+                  minHeight={{ xs: 400, sm: 360, md: 520, lg: 300, xl: 380, xxl: 440 }}
+                  sx={{ cursor: 'pointer', '&:hover': { opacity: 0.8 } }}
+                  onClick={() => handleImageClick(prod.image, prod.name)}>
                   <Image src={prod.image} alt={prod.name} fill style={{ objectFit: 'cover' }} />
                 </Grid>
               )
@@ -74,6 +94,12 @@ export default function Products() {
           </>
         )}
       </Grid>
+      <ImageModal
+        open={modalOpen}
+        image={selectedImage}
+        altText={selectedImageAlt}
+        onClose={handleCloseModal}
+      />
     </Box>
   );
 }
