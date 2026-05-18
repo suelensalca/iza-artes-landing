@@ -145,7 +145,7 @@ export const CloseButton = styled(IconButton)(({ theme }) => ({
   fontSize: '32px',
   boxShadow: theme.shadows[1],
   [theme.breakpoints.down('sm')]: {
-    top: '16px',
+    top: '32px',
     right: '16px',
   },
 }));
