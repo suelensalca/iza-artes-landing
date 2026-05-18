@@ -139,10 +139,14 @@ export const CloseButton = styled(IconButton)(({ theme }) => ({
   boxShadow: theme.shadows[1],
 }));
 
-export const ImageContainer = styled(Box)({
+export const ImageContainer = styled(Box)(({ theme }) => ({
   position: 'relative',
   marginTop: '20px',
-  width: '70vw',
+  width: '66vw',
   height: '87vh',
   overflow: 'hidden',
-});
+  [theme.breakpoints.down('sm')]: {
+    width: '98vw',
+    height: '98vh',
+  },
+}));
