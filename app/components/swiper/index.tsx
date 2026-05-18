@@ -12,10 +12,12 @@ import banner1 from './../../assets/banner/banner_1.png';
 import banner2 from './../../assets/banner/banner_2.png';
 import banner3 from './../../assets/banner/banner_3.png';
 import banner4 from './../../assets/banner/banner_4.png';
+import banner5 from './../../assets/banner/banner_5.png';
 import bannerMobile1 from './../../assets/banner/banner_mobile1.png';
 import bannerMobile2 from './../../assets/banner/banner_mobile2.png';
 import bannerMobile3 from './../../assets/banner/banner_mobile3.png';
 import bannerMobile4 from './../../assets/banner/banner_mobile4.png';
+import bannerMobile5 from './../../assets/banner/banner_mobile5.png';
 import { Container, StyledSwiperSlide } from './styles';
 import { useMediaQuery } from '@mui/material';
 
@@ -28,12 +30,14 @@ export default function HomeSwiper() {
         { image: bannerMobile2, name: 'produto exclusivo' },
         { image: bannerMobile3, name: 'feito a mao' },
         { image: bannerMobile4, name: 'pronta entrega' },
+        { image: bannerMobile5, name: 'copa' },
       ]
     : [
         { image: banner1, name: 'costura criativa' },
         { image: banner2, name: 'produto exclusivo' },
         { image: banner3, name: 'feito a mao' },
         { image: banner4, name: 'pronta entrega' },
+        { image: banner5, name: 'copa' },
       ];
 
   return (

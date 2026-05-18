@@ -14,15 +14,16 @@ import bolsa5 from '../../assets/products/bolsas/bolsa5.jpeg';
 import bolsa6 from '../../assets/products/bolsas/bolsa6.jpeg';
 import bolsa7 from '../../assets/products/bolsas/bolsa7.jpeg';
 import bolsa8 from '../../assets/products/bolsas/bolsa8.jpeg';
+import bolsa9 from '../../assets/products/bolsas/bolsa9.jpg';
+import bolsa10 from '../../assets/products/bolsas/bolsa10.jpg';
 import carteira1 from '../../assets/products/carteiras/carteira1.jpeg';
 import carteira2 from '../../assets/products/carteiras/carteira2.jpeg';
 import carteira3 from '../../assets/products/carteiras/carteira3.jpeg';
 import carteira4 from '../../assets/products/carteiras/carteira4.jpeg';
-import diversos1 from '../../assets/products/diversos/diversos1.jpeg';
-import diversos2 from '../../assets/products/diversos/diversos2.jpeg';
-import diversos3 from '../../assets/products/diversos/diversos3.jpeg';
-import diversos4 from '../../assets/products/diversos/diversos4.jpeg';
-import diversos5 from '../../assets/products/diversos/diversos5.jpeg';
+import cestos1 from '../../assets/products/cestos/cestos1.jpeg';
+import cestos2 from '../../assets/products/cestos/cestos2.jpg';
+import cestos3 from '../../assets/products/cestos/cestos3.jpg';
+import cestos4 from '../../assets/products/cestos/cestos4.jpg';
 import ecobag1 from '../../assets/products/ecobags/ecobag1.jpeg';
 import ecobag2 from '../../assets/products/ecobags/ecobag2.jpeg';
 import ecobag3 from '../../assets/products/ecobags/ecobag3.jpeg';
@@ -35,6 +36,10 @@ import estojo1 from '../../assets/products/estojos/estojo1.jpeg';
 import estojo2 from '../../assets/products/estojos/estojo2.jpeg';
 import estojo3 from '../../assets/products/estojos/estojo3.jpeg';
 import estojo4 from '../../assets/products/estojos/estojo4.jpeg';
+import faixas1 from '../../assets/products/faixas/faixas1.jpeg';
+import faixas2 from '../../assets/products/faixas/faixas2.jpeg';
+import faixas3 from '../../assets/products/faixas/faixas3.png';
+import faixas4 from '../../assets/products/faixas/faixas4.jpg';
 import higiene1 from '../../assets/products/higiene/higiene1.jpeg';
 import higiene2 from '../../assets/products/higiene/higiene2.jpeg';
 import higiene3 from '../../assets/products/higiene/higiene3.jpeg';
@@ -46,14 +51,20 @@ import infantil4 from '../../assets/products/infantil/infantil4.jpeg';
 import kits1 from '../../assets/products/kitsCozinha/kits1.jpeg';
 import kits2 from '../../assets/products/kitsCozinha/kits2.jpeg';
 import kits3 from '../../assets/products/kitsCozinha/kits3.jpeg';
+import kits4 from '../../assets/products/kitsCozinha/kits4.jpg';
+import kits5 from '../../assets/products/kitsCozinha/kits5.jpg';
+import kits6 from '../../assets/products/kitsCozinha/kits6.jpg';
 import lancheira1 from '../../assets/products/lancheiras/lancheira1.jpeg';
 import lancheira2 from '../../assets/products/lancheiras/lancheira2.jpeg';
 import lancheira3 from '../../assets/products/lancheiras/lancheira3.jpeg';
+import lixeirinhas1 from '../../assets/products/lixeirinhas/lixeirinhas1.jpeg';
+import lixeirinhas2 from '../../assets/products/lixeirinhas/lixeirinhas2.jpeg';
+import lixeirinhas3 from '../../assets/products/lixeirinhas/lixeirinhas3.jpg';
 import necessaire1 from '../../assets/products/necessaires/necessaire1.jpeg';
 import necessaire2 from '../../assets/products/necessaires/necessaire2.jpeg';
 import necessaire3 from '../../assets/products/necessaires/necessaire3.jpeg';
-import necessaire4 from '../../assets/products/necessaires/necessaire4.jpeg';
-import necessaire5 from '../../assets/products/necessaires/necessaire5.jpeg';
+import necessaire4 from '../../assets/products/necessaires/necessaire4.jpg';
+import necessaire5 from '../../assets/products/necessaires/necessaire5.jpg';
 import necessaire6 from '../../assets/products/necessaires/necessaire6.jpeg';
 import necessaire7 from '../../assets/products/necessaires/necessaire7.jpeg';
 import necessaire8 from '../../assets/products/necessaires/necessaire8.jpeg';
@@ -76,6 +87,11 @@ import puxasaco4 from '../../assets/products/puxaSacos/puxasaco4.jpeg';
 import toalha1 from '../../assets/products/toalhas/toalha1.jpeg';
 import toalha2 from '../../assets/products/toalhas/toalha2.jpeg';
 import toalha3 from '../../assets/products/toalhas/toalha3.jpeg';
+import toalha4 from '../../assets/products/toalhas/toalha4.jpg';
+import toalha5 from '../../assets/products/toalhas/toalha5.jpg';
+import toalha6 from '../../assets/products/toalhas/toalha6.jpg';
+import toalha7 from '../../assets/products/toalhas/toalha7.jpg';
+import toalha8 from '../../assets/products/toalhas/toalha8.jpg';
 import touca1 from '../../assets/products/toucas/touca1.jpeg';
 import touca2 from '../../assets/products/toucas/touca2.jpeg';
 import initial1 from '../../assets/products/initial/initial1.jpeg';
@@ -110,6 +126,8 @@ export const bolsasImgs = [
   { id: 6, image: bolsa6, name: 'bolsa 6' },
   { id: 7, image: bolsa7, name: 'bolsa 7' },
   { id: 8, image: bolsa8, name: 'bolsa 8' },
+  { id: 9, image: bolsa9, name: 'bolsa 9' },
+  { id: 10, image: bolsa10, name: 'bolsa 10' },
 ];
 
 export const carteirasImgs = [
@@ -119,12 +137,11 @@ export const carteirasImgs = [
   { id: 4, image: carteira4, name: 'carteira 4' },
 ];
 
-export const diversosImgs = [
-  { id: 1, image: diversos1, name: 'diversos 1' },
-  { id: 2, image: diversos2, name: 'diversos 2' },
-  { id: 3, image: diversos3, name: 'diversos 3' },
-  { id: 4, image: diversos4, name: 'diversos 4' },
-  { id: 5, image: diversos5, name: 'diversos 5' },
+export const cestosImgs = [
+  { id: 1, image: cestos1, name: 'cestos 1' },
+  { id: 2, image: cestos2, name: 'cestos 2' },
+  { id: 3, image: cestos3, name: 'cestos 3' },
+  { id: 4, image: cestos4, name: 'cestos 4' },
 ];
 
 export const ecobagsImgs = [
@@ -145,6 +162,13 @@ export const estojosImgs = [
   { id: 4, image: estojo4, name: 'estojo 4' },
 ];
 
+export const faixasImgs = [
+  { id: 1, image: faixas1, name: 'faixas 1' },
+  { id: 2, image: faixas2, name: 'faixas 2' },
+  { id: 3, image: faixas3, name: 'faixas 3' },
+  { id: 4, image: faixas4, name: 'faixas 4' },
+];
+
 export const higieneImgs = [
   { id: 1, image: higiene1, name: 'higiene 1' },
   { id: 2, image: higiene2, name: 'higiene 2' },
@@ -163,12 +187,21 @@ export const kitsImgs = [
   { id: 1, image: kits1, name: 'kits 1' },
   { id: 2, image: kits2, name: 'kits 2' },
   { id: 3, image: kits3, name: 'kits 3' },
+  { id: 4, image: kits4, name: 'kits 4' },
+  { id: 5, image: kits5, name: 'kits 5' },
+  { id: 6, image: kits6, name: 'kits 6' },
 ];
 
 export const lancheirasImgs = [
   { id: 1, image: lancheira1, name: 'lancheira 1' },
   { id: 2, image: lancheira2, name: 'lancheira 2' },
   { id: 3, image: lancheira3, name: 'lancheira 3' },
+];
+
+export const lixeirinhasImgs = [
+  { id: 1, image: lixeirinhas1, name: 'lixeirinha 1' },
+  { id: 2, image: lixeirinhas2, name: 'lixeirinha 2' },
+  { id: 3, image: lixeirinhas3, name: 'lixeirinha 3' },
 ];
 
 export const necessairesImgs = [
@@ -211,6 +244,11 @@ export const toalhasImgs = [
   { id: 1, image: toalha1, name: 'toalha 1' },
   { id: 2, image: toalha2, name: 'toalha 2' },
   { id: 3, image: toalha3, name: 'toalha 3' },
+  { id: 4, image: toalha4, name: 'toalha 4' },
+  { id: 5, image: toalha5, name: 'toalha 5' },
+  { id: 6, image: toalha6, name: 'toalha 6' },
+  { id: 7, image: toalha7, name: 'toalha 7' },
+  { id: 8, image: toalha8, name: 'toalha 8' },
 ];
 
 export const toucasImgs = [
@@ -241,8 +279,8 @@ export const productsImgs = [
   },
   {
     id: 4,
-    product: 'Diversos',
-    images: diversosImgs,
+    product: 'Cestos',
+    images: cestosImgs,
   },
   {
     id: 5,
@@ -256,51 +294,57 @@ export const productsImgs = [
   },
   {
     id: 7,
+    product: 'Faixas',
+    images: faixasImgs,
+  },
+  {
+    id: 8,
     product: 'Higiene',
     images: higieneImgs,
   },
   {
-    id: 8,
+    id: 9,
     product: 'Infantil',
     images: infantilImgs,
   },
   {
-    id: 9,
+    id: 10,
     product: 'Kits de Cozinha',
     images: kitsImgs,
   },
   {
-    id: 10,
+    id: 11,
     product: 'Lancheiras',
     images: lancheirasImgs,
   },
+  { id: 12, product: 'Lixeirinhas', images: lixeirinhasImgs },
   {
-    id: 11,
+    id: 13,
     product: 'Necessaires',
     images: necessairesImgs,
   },
   {
-    id: 12,
+    id: 14,
     product: 'Panos de Prato',
     images: panopratoImgs,
   },
   {
-    id: 13,
+    id: 15,
     product: 'Porta Óculos',
     images: portaoculosImgs,
   },
   {
-    id: 14,
+    id: 16,
     product: 'Puxa Sacos',
     images: puxasacosImgs,
   },
   {
-    id: 15,
+    id: 17,
     product: 'Toalhas',
     images: toalhasImgs,
   },
   {
-    id: 16,
+    id: 18,
     product: 'Toucas',
     images: toucasImgs,
   },
