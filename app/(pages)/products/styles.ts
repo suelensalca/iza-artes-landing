@@ -1,5 +1,5 @@
 import { Box, Button, IconButton, ListItemButton, Typography } from '@mui/material';
-import { styled } from '@mui/material/styles';
+import { alpha, styled } from '@mui/material/styles';
 import ArrowCircleLeftOutlinedIcon from '@mui/icons-material/ArrowCircleLeftOutlined';
 
 export const Menu = styled(Box)(({ theme }) => ({
@@ -22,8 +22,15 @@ export const MenuTitle = styled(ListItemButton)(({ theme }) => ({
   fontSize: '20px',
   fontWeight: '500',
   paddingLeft: '28px',
-  '&.MuiListItemButton-root:hover': {
-    backgroundColor: '#0081a733',
+  '&:hover': {
+    backgroundColor: alpha(theme.palette.primary.main, 0.2),
+  },
+  '&.Mui-selected': {
+    color: theme.palette.secondary.main,
+    backgroundColor: 'transparent',
+  },
+  '&.Mui-selected:hover': {
+    backgroundColor: alpha(theme.palette.secondary.main, 0.1),
   },
   '&.MuiListItemButton-root': {
     '& .MuiTouchRipple-root .MuiTouchRipple-rippleVisible': {
@@ -137,16 +144,22 @@ export const CloseButton = styled(IconButton)(({ theme }) => ({
   transition: 'all 0.2s ease-in-out',
   fontSize: '32px',
   boxShadow: theme.shadows[1],
+  [theme.breakpoints.down('sm')]: {
+    top: '16px',
+    right: '16px',
+  },
 }));
 
-export const ImageContainer = styled(Box)(({ theme }) => ({
+export const ImageContainer = styled(Box, {
+  shouldForwardProp: (prop) => prop !== 'horizontal',
+})<{ horizontal?: boolean }>(({ theme, horizontal }) => ({
   position: 'relative',
   marginTop: '20px',
-  width: '66vw',
+  width: horizontal ? '70vw' : '42vw',
   height: '87vh',
   overflow: 'hidden',
   [theme.breakpoints.down('sm')]: {
-    width: '98vw',
-    height: '98vh',
+    width: '96vw',
+    height: '96vh',
   },
 }));

@@ -11,9 +11,10 @@ interface ImageModalProps {
   image: string | null;
   altText: string;
   onClose: () => void;
+  categoryId?: number;
 }
 
-export function ImageModal({ open, image, altText, onClose }: ImageModalProps) {
+export function ImageModal({ open, image, altText, onClose, categoryId }: ImageModalProps) {
   return (
     <Modal
       open={open}
@@ -30,7 +31,7 @@ export function ImageModal({ open, image, altText, onClose }: ImageModalProps) {
           <CloseIcon fontSize="inherit" />
         </CloseButton>
         {image && (
-          <ImageContainer>
+          <ImageContainer horizontal={categoryId === 6 || categoryId === 18}>
             <Image src={image} alt={altText} fill style={{ objectFit: 'contain' }} />
           </ImageContainer>
         )}

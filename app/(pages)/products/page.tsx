@@ -33,7 +33,11 @@ export default function Products() {
         <List>
           {productsMenu.map((product) => (
             <ListItem key={product.id} sx={{ padding: '2px 0' }}>
-              <MenuTitle onClick={() => setSelectedProduct(product.id)}>{product.name}</MenuTitle>
+              <MenuTitle
+                selected={selectedProduct === product.id}
+                onClick={() => setSelectedProduct(product.id)}>
+                {product.name}
+              </MenuTitle>
             </ListItem>
           ))}
         </List>
@@ -99,6 +103,7 @@ export default function Products() {
         image={selectedImage}
         altText={selectedImageAlt}
         onClose={handleCloseModal}
+        categoryId={selectedItem?.id}
       />
     </Box>
   );
